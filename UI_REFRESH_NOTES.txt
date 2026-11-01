@@ -1,0 +1,32 @@
+EDUPILOT — PROFESSIONAL UI REFRESH
+==================================
+
+What changed
+------------
+- Updated src/style.css with a complete professional campus-portal visual refresh.
+- New palette: navy university sidebar, clean light dashboard canvas, indigo/cyan accents.
+- Refined dashboard hero, KPI cards, navigation, marketplace, EduCoins, quiz, community,
+  clubs, faculty schedule, Smart ID, events, skill exchange, study planner, SOS, AI assistant,
+  modals, forms, and responsive layouts.
+- Kept src/App.jsx, src/main.jsx, package.json, and public/EduPilot_Campus.html unchanged.
+  All existing component logic, app routes, sample data, forms, and localStorage keys are preserved.
+
+How to run on Windows
+---------------------
+1. Extract this ZIP to a new folder.
+2. Open that extracted folder in VS Code (File > Open Folder).
+3. Open Terminal > New Terminal.
+4. Run: npm.cmd install
+5. After install completes, run: npm.cmd run dev
+6. Open the localhost URL shown in the terminal (normally http://localhost:5173/).
+
+Why npm.cmd?
+------------
+In Windows PowerShell, npm.ps1 may be blocked by script execution policy. Using npm.cmd
+runs the Windows command shim and avoids that specific PowerShell script error.
+
+Notes
+-----
+- This is a visual/UI refresh; it does not add a backend or change prototype limitations.
+- The app still uses the original localStorage demo data and the existing campus iframe.
+- Internet may be needed to fetch npm packages and the remote font/map assets.
